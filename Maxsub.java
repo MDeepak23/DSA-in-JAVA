@@ -11,13 +11,13 @@ public class Maxsub{
         }
           return Max;
     }
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int a[] = new int[n];
         for(int i=0;i<n;i++)
-         a[i] = sc.nextInt();
-         Maxsub obj = new Maxsub();
-         System.out.println(obj.maxsub(a,n));
+        a[i] = sc.nextInt();
+        Maxsub obj = new Maxsub();
+        System.out.println(obj.maxsub(a,n));
      }
 }
