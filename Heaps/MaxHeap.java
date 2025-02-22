@@ -1,5 +1,5 @@
 class MaxHeap{
-    int a[];
+    static int a[];
     int maxsize,currsize;
     MaxHeap(int maxsize){
         this.maxsize = maxsize;
