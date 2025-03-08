@@ -1,3 +1,4 @@
+//single source shortest problem using dijkstra algorithm with paradigm of greedy
 import java.util.*;
 public class SSSP {
     public static int INF=999;
