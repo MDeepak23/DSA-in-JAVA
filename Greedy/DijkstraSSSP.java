@@ -17,6 +17,7 @@ public class SSSP {
         for(int i=0;i<n;i++){
             dist[i] = cost[v][i];
         }
+        s[v]=true;
         for(int num=1;num<n;num++){
             int u = Min(dist, s, n);
             if(u==-1) break;
