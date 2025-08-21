@@ -1,3 +1,5 @@
+// best time to buy and sell a stock
+// note: perform like a single transaction
 import java.util.*;
 class Stocks{
     public int stock(int prices[],int n){
