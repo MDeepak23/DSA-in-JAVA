@@ -1,4 +1,4 @@
-
+// leetcode twosum problem 
 import java.util.*;
 public class Pairsum{
     public void pairsum(int a[],int n,int target){
