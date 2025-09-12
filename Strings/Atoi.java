@@ -1,4 +1,5 @@
 // convert string to int without casting using ascii
+
 import java.util.*;
 class Atoi{
     public static void main(String[] args) {
