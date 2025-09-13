@@ -1,3 +1,4 @@
+
 public class addBinaryStrings {
     public static String removeZeroes(String s){
         int first = s.indexOf("1");
