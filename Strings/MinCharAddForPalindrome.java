@@ -1,3 +1,4 @@
+// min chars add to palindrome in front 
 public class MinCharAddForPalindrome {
 
     public static void lps(String pat,int lps[]){
@@ -36,10 +37,24 @@ public class MinCharAddForPalindrome {
        
 
     }
+      // for leetcode
+    /*  public String minChar(String s) {
+        String s1 = s;
+          int n = s.length();
+        
+        String rev = new StringBuilder(s).reverse().toString();
+         s = s+"$"+rev;
+         int lps[] = new int[s.length()];
+         lps(s,lps);
+         String toadd = rev.substring(0,n-lps[lps.length-1]);
+         return toadd+s1;
+    }*/
     public static void main(String[] args) {
         String txt = "aacecaaaa";
         
         System.out.println(minChar(txt));
     }
+
 }
+
 
