@@ -1,4 +1,4 @@
-// 1st method pointer sum, another one DNF(dutch national flag) in leetcode colorSort
+// 1st method pointer sum, another one DNF(dutch national flag) in leetcode colorSort...
 import java.util.*;
 class Sort012{
    /*   public static void sort012(int[] arr) {
